@@ -664,7 +664,7 @@ namespace SchedulingSystem.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to * Customer.
+        ///   Looks up a localized string similar to Customer.
         /// </summary>
         internal static string LabelCustomer {
             get {

@@ -262,7 +262,7 @@
     <value>Appointments</value>
   </data>
   <data name="LabelCustomer" xml:space="preserve">
-    <value>* Customer</value>
+    <value>Customer</value>
   </data>
   <data name="LabelDate" xml:space="preserve">
     <value>* Date</value>
