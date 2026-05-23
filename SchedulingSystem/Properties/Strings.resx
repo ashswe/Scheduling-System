@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CurrentTimeZoneLabel" xml:space="preserve">
+    <value>Current Time Zone:</value>
+  </data>
+  <data name="ErrorNoMatch" xml:space="preserve">
+    <value>Username and password do not match.</value>
+  </data>
+  <data name="ButtonLogin" xml:space="preserve">
+    <value>SIGN IN</value>
+  </data>
+  <data name="LabelPassword" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="ButtonRegister" xml:space="preserve">
+    <value>REGISTER</value>
+  </data>
+  <data name="LabelUsername" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="ErrorNoUsername" xml:space="preserve">
+    <value>Please enter a username.</value>
+  </data>
+  <data name="ErrorNoPassword" xml:space="preserve">
+    <value>Please enter a password.</value>
+  </data>
+  <data name="ErrorNoUsernamePassword" xml:space="preserve">
+    <value>Please enter a username and password.</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="UserRegisteredSuccess" xml:space="preserve">
+    <value>User registered successfully!</value>
+  </data>
+  <data name="ErrorUsernameExists" xml:space="preserve">
+    <value>Username already exists.</value>
+  </data>
+  <data name="ErrorMsgGeneral" xml:space="preserve">
+    <value>Something went wrong. Please try again.</value>
+  </data>
+  <data name="ErrorUsernameOrPasswordIncorrect" xml:space="preserve">
+    <value>Username or password is incorrect. Please try again.</value>
+  </data>
+  <data name="CustomerAddSuccess" xml:space="preserve">
+    <value>Customer added successfully!</value>
+  </data>
+  <data name="ErrorNameRequired" xml:space="preserve">
+    <value>Name is required.</value>
+  </data>
+  <data name="ErrorAddressRequired" xml:space="preserve">
+    <value>Address is required.</value>
+  </data>
+  <data name="ErrorPhone" xml:space="preserve">
+    <value>Phone Number can only include digits and dashes.</value>
+  </data>
+  <data name="LabelCustomerManagement" xml:space="preserve">
+    <value>Customer Management</value>
+  </data>
+  <data name="LabelName" xml:space="preserve">
+    <value>*Name:</value>
+  </data>
+  <data name="LabelAddress" xml:space="preserve">
+    <value>* Address:</value>
+  </data>
+  <data name="LabelAddress2" xml:space="preserve">
+    <value>Address 2:</value>
+  </data>
+  <data name="LabelCity" xml:space="preserve">
+    <value>* City:</value>
+  </data>
+  <data name="LabelCountry" xml:space="preserve">
+    <value>* Country:</value>
+  </data>
+  <data name="LabelPostalCode" xml:space="preserve">
+    <value>* Postal Code:</value>
+  </data>
+  <data name="LabelPhone" xml:space="preserve">
+    <value>* Phone:</value>
+  </data>
+  <data name="LabelActive" xml:space="preserve">
+    <value>Active:</value>
+  </data>
+  <data name="ButtonAdd" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="ButtonUpdate" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="CustomerUpdateSuccess" xml:space="preserve">
+    <value>Customer updated successfully!</value>
+  </data>
+  <data name="CustomerDeleteSuccess" xml:space="preserve">
+    <value>Customer deleted successfully!</value>
+  </data>
+  <data name="LabelAddCity" xml:space="preserve">
+    <value>Add a City</value>
+  </data>
+  <data name="LabelCityName" xml:space="preserve">
+    <value>City Name:</value>
+  </data>
+  <data name="ErrorCity" xml:space="preserve">
+    <value>City name can only include letters.</value>
+  </data>
+  <data name="LabelAddCountry" xml:space="preserve">
+    <value>Add a Country</value>
+  </data>
+  <data name="LabelCountryName" xml:space="preserve">
+    <value>* Country Name:</value>
+  </data>
+  <data name="ErrorCountry" xml:space="preserve">
+    <value>Country name can only include letters.</value>
+  </data>
+  <data name="CountryAddSuccess" xml:space="preserve">
+    <value>Country added successfully!</value>
+  </data>
+  <data name="CityAddSuccess" xml:space="preserve">
+    <value>City added successfully!</value>
+  </data>
+  <data name="ErrorPostalCode" xml:space="preserve">
+    <value>Postal Code can only include numbers.</value>
+  </data>
+  <data name="ErrorCityRequired" xml:space="preserve">
+    <value>Please select or add a city.</value>
+  </data>
+  <data name="ErrorCountryRequired" xml:space="preserve">
+    <value>Please select or add a country.</value>
+  </data>
+  <data name="ErrorPostalCodeRequired" xml:space="preserve">
+    <value>Postal Code is required.</value>
+  </data>
+  <data name="ErrorPhoneRequired" xml:space="preserve">
+    <value>Phone number is required.</value>
+  </data>
+  <data name="ErrorPostalLength" xml:space="preserve">
+    <value>Postal Code must include between 3 and 10 digits.</value>
+  </data>
+  <data name="ErrorSelectCustomer" xml:space="preserve">
+    <value>Please select a customer in the Customer table to update or delete.</value>
+  </data>
+  <data name="LabelAppointments" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="LabelCustomer" xml:space="preserve">
+    <value>* Customer</value>
+  </data>
+  <data name="LabelDate" xml:space="preserve">
+    <value>* Date</value>
+  </data>
+  <data name="LabelTime" xml:space="preserve">
+    <value>* Time</value>
+  </data>
+  <data name="LabelDuration" xml:space="preserve">
+    <value>* Duration (minutes)</value>
+  </data>
+  <data name="LabelType" xml:space="preserve">
+    <value>* Type</value>
+  </data>
+  <data name="LabelLocation" xml:space="preserve">
+    <value>* Location</value>
+  </data>
+  <data name="LabelContact" xml:space="preserve">
+    <value>* Contact</value>
+  </data>
+  <data name="LabelUrl" xml:space="preserve">
+    <value>* URL</value>
+  </data>
+  <data name="LabelTitle" xml:space="preserve">
+    <value>* Title</value>
+  </data>
+  <data name="LabelDescription" xml:space="preserve">
+    <value>* Description</value>
+  </data>
+  <data name="LabelBusinessHours" xml:space="preserve">
+    <value>Business Hours: 9:00 AM - 5:00 PM EST, Mon-Fri</value>
+  </data>
+  <data name="LabelReqFields" xml:space="preserve">
+    <value>* Required Fields</value>
+  </data>
+  <data name="AppointmentAddSuccess" xml:space="preserve">
+    <value>Appointment added successfully!</value>
+  </data>
+  <data name="AppointmentUpdateSuccess" xml:space="preserve">
+    <value>Appointment updated successfully!</value>
+  </data>
+  <data name="AppointmentDeleteSuccess" xml:space="preserve">
+    <value>Appointment deleted successfully!</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>Name must contain only letters.</value>
+  </data>
+  <data name="ErrorAddress" xml:space="preserve">
+    <value>Address can only contain letters, numbers, and dashes.</value>
+  </data>
+  <data name="ErrorPhoneLength" xml:space="preserve">
+    <value>Phone number must be between 10 and 15 digits.</value>
+  </data>
+  <data name="ErrorTypeRequired" xml:space="preserve">
+    <value>Appointment type is required.</value>
+  </data>
+  <data name="ErrorType" xml:space="preserve">
+    <value>Appointment type can only contain letters.</value>
+  </data>
+  <data name="ErrorLocationRequired" xml:space="preserve">
+    <value>Please select a location.</value>
+  </data>
+  <data name="ErrorContactRequired" xml:space="preserve">
+    <value>Contact is required.</value>
+  </data>
+  <data name="ErrorUrlRequired" xml:space="preserve">
+    <value>URL is required.</value>
+  </data>
+  <data name="ErrorTitleRequired" xml:space="preserve">
+    <value>Title is required.</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Title can only contain letters.</value>
+  </data>
+  <data name="ErrorDescRequired" xml:space="preserve">
+    <value>Description is required.</value>
+  </data>
+  <data name="ErrorDateRequired" xml:space="preserve">
+    <value>Please select a date.</value>
+  </data>
+  <data name="ErrorTimeRequired" xml:space="preserve">
+    <value>Please select a time.</value>
+  </data>
+  <data name="ErrorDurationRequired" xml:space="preserve">
+    <value>Duration is required.</value>
+  </data>
+  <data name="ErrorCustomerRequired" xml:space="preserve">
+    <value>Please select a customer.</value>
+  </data>
+  <data name="ErrorDateTime" xml:space="preserve">
+    <value>Appointment must be scheduled during the business hours of 9:00 a.m. to 5:00 p.m. EST, Monday–Friday.</value>
+  </data>
+  <data name="ErrorDuration" xml:space="preserve">
+    <value>Please select an appointment duration of 15 minutes, 30 minutes, or 60 minutes.</value>
+  </data>
+  <data name="ErrorLocation" xml:space="preserve">
+    <value>Please select a location.</value>
+  </data>
+  <data name="ErrorSelectAppointment" xml:space="preserve">
+    <value>Please select an appointment in the Appointment table to update or delete.</value>
+  </data>
+  <data name="ErrorAppointmentExists" xml:space="preserve">
+    <value>An appointment is already booked on {0} between {1} and {2}. Please select another appointment time.</value>
+  </data>
+  <data name="LabelCalendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadioBtnDailyView" xml:space="preserve">
+    <value>Daily View</value>
+  </data>
+  <data name="RadioBtnMonthlyView" xml:space="preserve">
+    <value>Monthly View</value>
+  </data>
+  <data name="AppointmentAlert" xml:space="preserve">
+    <value>Appointment Reminder: You have an appointment at {0}.</value>
+  </data>
+  <data name="LabelReports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="LabelReportType" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+</root>
