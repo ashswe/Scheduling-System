@@ -29,23 +29,6 @@ A desktop scheduling application built with C# and WinForms that allows users to
 
 ---
 
-## Project Structure
-
-```text
-SchedulingSystem/
-│
-├── Data/
-│   └── Scheduling_System_DB_Setup.sql
-├── DataAccess/
-├── Models/
-├── Utilities/
-├── Services/
-├── Forms/
-└── Program.cs
-```
-
----
-
 ## Installation
 
 ### Prerequisites
